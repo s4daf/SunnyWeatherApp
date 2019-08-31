@@ -51,13 +51,14 @@
         </androidx.cardview.widget.CardView>
 
         <Button
+            android:textStyle="italic"
             android:layout_gravity="center"
             android:gravity="center"
             android:id="@+id/btnForecast"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="forecast" />
+            android:text="Forecast Weather" />
 
     </LinearLayout>
 

@@ -29,14 +29,9 @@ public class SplashSpeedActivity extends AppCompatActivity {
                 @Override
                 public void run() {
 
-                    Toast.makeText(SplashSpeedActivity.this, "Connecting..Please wait!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(SplashSpeedActivity.this, "welcom weather drop!", Toast.LENGTH_LONG).show();
                 }
             }, 1000);
-
-//          Toast.makeText(SplashSpeedActivity.this, "Connecting..Please wait!", Toast.LENGTH_LONG).show();
-//          Toast.makeText(SplashSpeedActivity.this, "Connecting..", Toast.LENGTH_SHORT).show();
-//          Toast.makeText(SplashSpeedActivity.this, "Please wait!", Toast.LENGTH_SHORT).show();
-//          Toast.makeText(SplashSpeedActivity.this, "You're Welcome", Toast.LENGTH_SHORT).show();
 
             new Handler().postDelayed(new Runnable() {
                 @Override
@@ -46,7 +41,7 @@ public class SplashSpeedActivity extends AppCompatActivity {
                     startActivity(splashSpeedToMainActivity);
                     finish();
                 }
-            }, 5000);
+            }, 2000);
 
         }
 
